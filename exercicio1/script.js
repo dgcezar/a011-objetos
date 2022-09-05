@@ -1,10 +1,22 @@
 const sacolao = [];
 
-const frutas = {
-  nome: ["goiaba", "laranja", "mamao"],
-  preco: [2, 4, 7],
-  disponibilidade: [true, true, true],
-};
+const frutas = [
+  {
+    nome: "goiaba",
+    preco: 2,
+    disponibilidade: true,
+  },
+  {
+    nome: "laranja",
+    preco: 4,
+    disponibilidade: true,
+  },
+  {
+    nome: "uva",
+    preco: 1,
+    disponibilidade: false,
+  },
+];
 
 sacolao.push(frutas);
 
